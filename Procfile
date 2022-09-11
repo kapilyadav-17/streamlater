@@ -1,1 +1,1 @@
-web: gunicorn streamlaterproject.wsgi:application
+web: gunicorn streamlaterproject.wsgi
