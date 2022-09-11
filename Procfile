@@ -1,1 +1,1 @@
-web: gunicorn streamlater.wsgi --log-file -
+web: gunicorn streamlaterproject.wsgi --log-file -
