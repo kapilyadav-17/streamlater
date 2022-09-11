@@ -25,7 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG',default= False,cast = bool)
 
-ALLOWED_HOSTS = ['10.0.2.2' ]
+ALLOWED_HOSTS = ['https://streamlater.herokuapp.com/' ]
 
 
 # Application definition
